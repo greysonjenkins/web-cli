@@ -1,5 +1,10 @@
-# WebCLI
+# WebCLI 
 
+## Status
+
+[![Deploy](https://github.com/greysonjenkins/WebCLI/actions/workflows/deploy.yml/badge.svg)](https://github.com/greysonjenkins/WebCLI/actions/workflows/deploy.yml)
+
+---
 This repository hosts the source code for WebCLI, a Linux virtual machine that runs in your browser.
 
 WebCLI is a server-less VM running fully client-side in HTML5/WebAssembly. It's designed to be Linux ABI-compatible and runs an unmodified Debian distribution including many native development toolchains.
