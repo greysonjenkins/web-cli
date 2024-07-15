@@ -1,15 +1,10 @@
-# WebVM
+# WebCLI
 
-[![Discord server](https://img.shields.io/discord/988743885121548329?color=%235865F2&logo=discord&logoColor=%23fff)](https://discord.gg/yWRr2YnD9c)
-[![Issues](https://img.shields.io/github/issues/leaningtech/webvm)](https://github.com/leaningtech/webvm/issues)
+This repository hosts the source code for WebCLI, a Linux virtual machine that runs in your browser.
 
-This repository hosts the source code for [https://webvm.io](https://webvm.io), a Linux virtual machine that runs in your browser.
+WebCLI is a server-less VM running fully client-side in HTML5/WebAssembly. It's designed to be Linux ABI-compatible and runs an unmodified Debian distribution including many native development toolchains.
 
-<img src="assets/welcome_to_WebVM_slim.png" width="95%">
-
-WebVM is a server-less virtual environment running fully client-side in HTML5/WebAssembly. It's designed to be Linux ABI-compatible. It runs an unmodified Debian distribution including many native development toolchains.
-
-WebVM is powered by the CheerpX virtualization engine, and enables safe, sandboxed client-side execution of x86 binaries on any browser. CheerpX includes an x86-to-WebAssembly JIT compiler, a virtual block-based file system, and a Linux syscall emulator. 
+WebCLI is powered by the CheerpX virtualization engine, and enables safe, sandboxed client-side execution of x86 binaries on any browser. CheerpX includes an x86-to-WebAssembly JIT compiler, a virtual block-based file system, and a Linux syscall emulator. 
 
 # Enable networking
 
@@ -18,8 +13,6 @@ WebVM is powered by the CheerpX virtualization engine, and enables safe, sandbox
 - If you are unfamiliar with Tailscale or would like additional information see [WebVM and Tailscale](/docs/Tailscale.md).
 
 # Fork, deploy, customize
-
-<img src="/assets/fork_deploy_instructions.gif" alt="deploy_instructions_gif" width="90%">
 
 - Fork the repository.
 - Enable Github pages in settings.
@@ -34,8 +27,6 @@ WebVM is powered by the CheerpX virtualization engine, and enables safe, sandbox
 	- Click `Run workflow` and then once more `Run workflow` in the menu.
 - After a few seconds a new `Deploy` workflow will start, click on it to see details.
 - After the workflow completes, which takes a few minutes, it will show the URL below the `deploy_to_github_pages` job.
-
-<img src="/assets/result.png" width="70%" >
 
 You can now customize `dockerfiles/debian_mini` to suits your needs, or make a new Dockerfile from scratch. Use the `Path to Dockerfile` workflow parameter to select it.
 
@@ -72,8 +63,7 @@ index 2878332..1f3103a 100644
 
 # Bugs and Issues
 
-Please use [Issues](https://github.com/leaningtech/webvm/issues) to report any bug.
-Or come to say hello / share your feedback on [Discord](https://discord.gg/yTNZgySKGa).
+Please use [Issues](https://github.com/leaningtech/webvm/issues) to report any bugs.
 
 # More links
 
@@ -100,7 +90,7 @@ We strongly encourage users _not_ to use the latest build. Please directly use a
 
 # License
 
-WebVM is released under the Apache License, Version 2.0.
+WebCLI is released under the Apache License, Version 2.0.
 
 You are welcome to use, modify, and redistribute the contents of this repository.
 
