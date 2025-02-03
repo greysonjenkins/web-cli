@@ -1,4 +1,5 @@
 # WebCLI 
+## Note: Must deploy locally to avoid auto-sleep. WebCLI will be rarely be deployed directly from this repository.
 
 ## Status
 
